@@ -1,0 +1,32 @@
+.gallery {
+  padding: 38px 0 96px;
+
+  &__title {
+    @include fonts(normal, normal, 34px, 36px, 0);
+    text-align: center;
+  }
+
+  &__descr {
+    @include fonts(normal, normal, 16px, 24px, 0.8px);
+    text-align: center;
+    color: #A0A0A0;
+    margin: 23px 0 79px;
+  }
+
+  &__row {
+    display: flex;
+    column-gap: 25px;
+  }
+
+  &__item {
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

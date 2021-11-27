@@ -1,0 +1,43 @@
+.home {
+  padding: 174px 0 185px;
+  background: url("../images/home/bg.png") top left/ 100% 100% no-repeat;
+  background-attachment: fixed;
+
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__content {
+    text-align: center;
+    color: #fff;
+
+    &-title {
+      @include fonts(normal, normal, 60px, 70px, 0);
+    }
+
+    &-descr {
+      @include fonts(normal, normal, 14px, 16px, 0.8px);
+      margin: 14px 0 30px;
+    }
+
+    &-link {
+      @include fonts(normal, normal, 13px, 15px, 1.4px);
+      color: #fff;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #FFF;
+        left: 0;
+        bottom: -5px;
+        transition: 0.6s;
+      }
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}

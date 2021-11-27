@@ -1,0 +1,49 @@
+.inspire {
+  padding: 80px 0;
+
+  &__title {
+    @include fonts(normal, normal, 43px, 58px, 0);
+    text-align: center;
+  }
+
+  &__subtitle {
+    @include fonts(normal, normal, 14px, 24px, 0.8px);
+    text-align: center;
+    color: #A0A0A0;
+    margin: 23px 0 26px;
+  }
+
+  &__text {
+    @include fonts(normal, normal, 13px, 21px, 1.4px);
+    text-align: center;
+    color: #000;
+  }
+
+  &__row {
+    margin-top: 81px;
+    display: flex;
+    column-gap: 25px;
+  }
+
+  &__item {
+    text-align: center;
+
+    &-image {
+      width: 100%;
+    }
+
+    &-title {
+      @include fonts(normal, normal, 23px, 30px, 0);
+      margin: 48px 0 23px;
+    }
+
+    &-link {
+      @include fonts(normal, normal, 13px, 15px, 1.4px);
+      color: #000;
+      transition: 0.2s;
+      &:hover {
+        color: #A0A0A0;
+      }
+    }
+  }
+}

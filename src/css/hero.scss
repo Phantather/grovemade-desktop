@@ -1,0 +1,37 @@
+.hero {
+  padding: 189px 0 197px;
+  background: url("../images/hero/bg.png") top left/ 100% 100% no-repeat;
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    text-align: center;
+    color: #fff;
+    &-title {
+      @include fonts(normal, normal, 43px, 46px, 0);
+    }
+    &-descr {
+      @include fonts(normal, normal, 15px, 18px, 0.8px);
+      margin: 12px 0 28px;
+    }
+    &-link {
+      @include fonts(normal, normal, 13px, 15px, 1.4px);
+      color: #fff;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background-color: #FFF;
+        left: 0;
+        bottom: -5px;
+        transition: 0.6s;
+      }
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}

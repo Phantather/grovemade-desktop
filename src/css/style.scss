@@ -1,0 +1,40 @@
+@import "../fonts/Roboto/stylesheet.css";
+@import "../libs/owl-carousel/owl.carousel.min.css";
+@import "../libs/owl-carousel/owl.theme.default.min.css";
+@import "../libs/fancybox/jquery.fancybox.min.css";
+@import "mixins";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@import "header";
+@import "hero";
+@import "inspire";
+@import "slider";
+@import "home";
+@import "gallery";
+@import "made";
+@import "story";
+@import "footer";

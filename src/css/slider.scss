@@ -1,0 +1,56 @@
+.slider {
+  padding: 50px 0 95px;
+
+  &__title {
+    @include fonts(normal, normal, 33px, 36px, 0);
+    text-align: center;
+  }
+
+  &__descr {
+    @include fonts(normal, normal, 15px, 18px, 0.8px);
+    text-align: center;
+    margin: 16px 0 83px;
+    color: #A0A0A0;
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 25px;
+    position: relative;
+  }
+
+
+  &__info {
+    @include fonts(normal, normal, 13px, 21px, 0.7px);
+    color: #A0A0A0;
+    margin-top: 23px;
+  }
+
+  &__price {
+    @include fonts(normal, normal, 12px, 21px, 0.7px);
+    color: #A0A0A0;
+  }
+  &__dots {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    column-gap: 16px;
+  }
+
+  &__dot {
+    width: 16px !important;
+    height: 16px !important;
+    background-color: rgba(168, 168, 168, 0.56) !important;
+    cursor: pointer;
+  }
+
+  &__dot.active {
+    background-color: black !important;
+  }
+}
+
+
+
+

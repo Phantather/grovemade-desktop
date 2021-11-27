@@ -1,0 +1,27 @@
+.story {
+  padding: 30px 0 40px;
+  text-align: center;
+  &__title {
+    @include fonts(normal, normal, 34px, 36px, 0);
+    margin-bottom: 44px;
+  }
+  &__link {
+    @include fonts(normal, normal, 13px, 21px, 1.4px);
+    color: #000;
+  }
+
+  &__content {
+    margin-top: 121px;
+    padding: 120px 0;
+    background-color: #9AA8B1;
+    color: #fff;
+    &-title {
+      @include fonts(normal, normal, 43px, 58px, 0);
+      margin: 24px 0;
+    }
+    &-descr {
+      @include fonts(normal, normal, 14px, 24px, 0.8px);
+    }
+  }
+
+}

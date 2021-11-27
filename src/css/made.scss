@@ -1,0 +1,19 @@
+.made {
+  padding-top: 116px;
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    text-align: center;
+  }
+  &__title {
+    @include fonts(normal, normal, 34px, 36px, 0);
+  }
+
+  &__descr {
+    @include fonts(normal, normal, 16px, 24px, 0.8px);
+    color: #A0A0A0;
+    margin: 23px 0;
+  }
+}
