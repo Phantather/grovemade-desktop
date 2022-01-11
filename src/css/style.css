@@ -324,13 +324,11 @@ a {
 }
 .gallery__row {
   display: flex;
-  column-gap: 25px;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 .gallery__item {
-  margin-bottom: 25px;
-}
-.gallery__item:last-child {
-  margin-bottom: 0;
+  width: calc(16.66666% - 20.83333px);
 }
 .gallery__image {
   width: 100%;

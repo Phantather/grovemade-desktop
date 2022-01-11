@@ -15,15 +15,12 @@
 
   &__row {
     display: flex;
-    column-gap: 25px;
+    gap: 25px;
+    flex-wrap: wrap;
   }
 
   &__item {
-    margin-bottom: 25px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+    width: calc(16.66666% - 20.83333px);
   }
 
   &__image {

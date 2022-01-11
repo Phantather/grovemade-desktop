@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f0c4b105-38d4-4daf-ba09-dcc6e9ff28fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,17 @@
       <workItem from="1637752729355" duration="919000" />
       <workItem from="1637921692318" duration="2882000" />
       <workItem from="1637993164940" duration="5697000" />
+      <workItem from="1638008429406" duration="349000" />
+      <workItem from="1638022730804" duration="30000" />
+      <workItem from="1638178522927" duration="859000" />
+      <workItem from="1638375538904" duration="978000" />
+      <workItem from="1638376774949" duration="10000" />
+      <workItem from="1638424717881" duration="43000" />
+      <workItem from="1638435378543" duration="95000" />
+      <workItem from="1638437751086" duration="1953000" />
+      <workItem from="1639233978058" duration="954000" />
+      <workItem from="1641479406526" duration="1690000" />
+      <workItem from="1641885323353" duration="556000" />
     </task>
     <servers />
   </component>
@@ -89,11 +104,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="317" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1636978940941" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1637925354577">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1638440589206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="111" key="FileChooserDialogImpl/0.0.1280.680/1280.0.1536.824@0.0.1280.680" timestamp="1637502950785" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1637925354577" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1638440589206" />
     <state x="338" y="23" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1637319705428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
